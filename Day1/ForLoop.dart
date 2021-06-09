@@ -6,3 +6,22 @@ void main(){
   
   
 }
+void main(){
+
+
+  List planet=['Mercury','Venus','mars'];
+  
+  for(var names in planet){
+    print(names);
+  }
+    
+
+
+
+
+
+
+
+
+
+}
