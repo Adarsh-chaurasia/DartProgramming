@@ -1,4 +1,4 @@
-
+//Default Constructer
 void main(){
 
   var s1=new Student();
