@@ -23,16 +23,14 @@ class Student{
   var name;
   var id;
   
-  var percent;
+  var -percent;//Private instance variable
   //CustomSetter
-  void set percentage(var marks){
-    
-    percent=(marks/500)*100;
-  }
+  void set percentage(var marks)=>   _percent=(marks/500)*100;
+ 
   //CustomGetter
   
   get percentage{
-    return percent;
+    return _percent;
   }
   
   
